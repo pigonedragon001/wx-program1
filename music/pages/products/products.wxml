@@ -1,0 +1,8 @@
+<!--pages/products/products.wxml-->
+<view>
+  <view data-pid="{{product.id}}" bindtap="todetail" wx:key="{{product.id}}" wx:for="{{products}}" wx:for-item="product" class="product-item">
+    <text>{{product.name}}</text>
+    <text>        单价：{{product.price}}</text>
+    <image src="{{product.img}}" style="float: right; width: 200rpx; height:200rpx" />
+  </view>
+</view>

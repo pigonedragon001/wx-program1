@@ -1,0 +1,27 @@
+/**index.wxss**/
+.nav{
+   width: 350rpx;
+   height: 20rpx;
+   margin: 0 auto;
+   text-align: center
+}
+
+button{
+  height: 80rpx;
+  margin-top:50rpx;
+  line-height: 80rpx
+}
+
+swiper{
+  margin-top: 5rpx
+}
+
+.album{
+   margin-top: 20rpx;
+     padding: 20rpx;
+}
+
+text{
+  margin-left: 20rpx;
+  margin-right: 20rpx
+}

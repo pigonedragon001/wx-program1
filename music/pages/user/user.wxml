@@ -1,0 +1,13 @@
+<!--pages/user/user.wxml-->
+<view>
+   <view wx:if="{{!login}}">
+       登录名：<input bindinput="changeName"  type="text" value="{{login_name}}"/>
+       密码：<input bindinput="changePassword" password  value="{{password}}"/>
+       <button bindtap="login">登陆</button>
+   </view>
+   <view wx:else>
+      欢迎{{userName}}
+      <button bindtap="outlogin">退出登录</button>
+      <button bindtap="getmessage">获取{{userName}}信息</button>
+   </view>
+</view>

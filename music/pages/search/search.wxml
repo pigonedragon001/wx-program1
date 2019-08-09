@@ -1,0 +1,10 @@
+<!--pages/search/search.wxml-->
+ <input bindinput="inputWord" type="text"  value="{{Word}}"/>
+ <button bindtap="search">搜索</button>
+ <view>
+     <text>已为你搜到{{song.length}}首歌曲</text>
+    <view wx:for="{{song}}" wx:key="{{song.songid}}">
+       <text>{{item.songname}}</text>
+    </view>
+ </view>
+

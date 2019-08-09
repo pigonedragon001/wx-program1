@@ -1,0 +1,12 @@
+<!--pages/shoppingcar/shoppingcar.wxml-->
+<view>
+   <view wx:key="{{item.pid}}" wx:for="{{cartItems}}" class="car">
+       <text>商品：{{item.name}}  单价：{{item.price}}  数目：{{item.count}}</text>
+        <button data-pid="{{item.pid}}" bindtap="addcount" style="float:right;width:60rpx;height:80rpx;line-height:80rpx;">+</button>
+        <button data-pid="{{item.pid}}" bindtap="deccount" style="float:right;width:60rpx;height:80rpx;line-height:80rpx">-</button>
+   </view>
+  
+          <text class="money">￥{{total}}</text>
+         <button class="pay" bindtap="pay">立刻支付</button>
+    
+</view>

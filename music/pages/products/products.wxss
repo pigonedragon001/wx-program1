@@ -1,0 +1,7 @@
+/* pages/products/products.wxss */
+.product-item{
+   height: 200rpx;
+   margin: 20rpx;
+   padding: 20rpx;
+   box-shadow: 1px 1px 5px pink
+}

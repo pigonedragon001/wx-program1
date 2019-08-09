@@ -1,0 +1,26 @@
+/* pages/shoppingcar/shoppingcar.wxss */
+.car{
+  margin: 20rpx;
+  padding: 20rpx;
+  box-shadow: 1px 1px 5px red;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx
+}
+
+.pay{
+   position: fixed;
+   bottom: 20rpx;
+   right:20rpx;
+   width: 250rpx;
+   background: pink;
+   height: 80rpx;
+   font-size: 32rpx
+}
+
+.money{
+   position: fixed;
+   bottom: 40rpx;
+   left: 60rpx;
+   color: red
+}

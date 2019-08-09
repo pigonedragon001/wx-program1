@@ -1,0 +1,16 @@
+<!--pages/mycar/mycar.wxml-->
+<view>
+     <view>
+         <button bindtap="place">选择收货地址</button>
+         <view wx:if="{{place}}" class="place">
+              <text>地址：{{place.address}} 电话：{{place.phone}}  收货人：{{place.clientName}}</text>
+         </view>
+     </view>
+
+     <view wx:for="{{cartItems}}" wx:key="{{item.pid}}" class="order">
+             <text>名称: {{item.name}}, 价格: {{item.price}}, 数量: {{item.count}}</text>
+     </view>
+
+     <button class="payment">付款</button>
+     <text class="money">总计：￥{{total}}元</text>
+</view>

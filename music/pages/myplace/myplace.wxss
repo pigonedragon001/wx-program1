@@ -1,0 +1,37 @@
+/* pages/myplace/myplace.wxss */
+
+.address{
+   background: pink;
+   height: 60rpx;
+   margin: 20rpx;
+   padding: 20rpx
+}
+
+.nav{
+   width: 150rpx;
+   margin: 0 auto;
+   margin-bottom: 30rpx
+}
+
+.del{
+   width: 130rpx;
+   font-size: 25rpx;
+   float: left;
+   height:50rpx;
+   line-height: 50rpx
+}
+
+.choice{
+   width: 130rpx;
+   font-size: 25rpx;
+   float: right;
+   height:50rpx;
+   line-height: 50rpx
+}
+
+.message{
+   font-size: 30rpx;
+   float: left;
+   height:50rpx;
+    line-height: 50rpx
+}

@@ -1,0 +1,9 @@
+/* pages/productsdetail/detail.wxss */
+.detail{
+  border: 1px solid red;
+  float: left;
+  margin: 10rpx;
+  padding: 10rpx;
+  text-align: center;
+  font-size: 32rpx
+}

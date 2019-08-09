@@ -1,0 +1,28 @@
+/* pages/mycar/mycar.wxss */
+.order{
+  margin: 20rpx;
+  padding: 20rpx;
+  box-shadow: 1px 1px 5px red
+}
+
+.place{
+  margin: 20rpx;
+  padding: 20rpx;
+  box-shadow: 1px 1px 5px orange
+}
+
+.payment{
+  position: fixed;
+  width: 180rpx;
+  right: 20rpx;
+  bottom: 20rpx;
+  background: pink;
+  font-size: 32rpx
+}
+
+.money{
+  color: red;
+  position: fixed;
+  bottom: 20rpx;
+  left: 20rpx
+}

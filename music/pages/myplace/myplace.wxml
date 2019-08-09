@@ -1,0 +1,19 @@
+<!--pages/myplace/myplace.wxml-->
+  <view>
+        <view class="nav">地址列表</view>
+        
+        <view wx:key="{{index}}" wx:for="{{placeList}}" class="address">
+            <button bindtap="delPlace" data-itemindex="{{index}}" class="del">删除</button>
+            <view class="message">{{item.clientName}} {{item.phone}}  {{item.address}}</view>
+            <button bindtap="choicePlace" data-place="{{item}}" class="choice">选择</button>
+        </view>
+
+
+
+      <view>
+          姓名：<input bindinput="changeName" type="text" value="{{newPlace.clientName}}"/>
+          电话：<input bindinput="changePhone" type="text" value="{{newPlace.phone}}"/>
+          地址：<input bindinput="changePlace" type="text" value="{{newPlace.address}}"/>
+          <button bindtap="addAddress">增加地址</button>
+      </view>
+  </view>
